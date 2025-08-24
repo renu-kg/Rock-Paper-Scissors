@@ -49,9 +49,11 @@ buttons.forEach(button => {
   button.addEventListener("click", playRound);
 });
 
+```
 
-- **Math.random()**  
+ ### Math.random()  
   To generate a random choice for the computer.  
   ```js
   const choices = ["rock", "paper", "scissors"];
   const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+```
