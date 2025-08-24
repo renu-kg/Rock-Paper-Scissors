@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:  cursive;
+}
+h1{
+    background-color: navy;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+    border-radius: 50%;
+    border: none;
+    margin: 20px 20px 0px 20px;
+}
+button:hover{
+    border: 2px solid navy;
+    cursor: pointer;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score, #comp-score{
+    font-size: 4rem ;
+}
+.result{
+    margin-top: 5rem;
+}
+#msg{
+  
+    background-color: navy;
+    color: white;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
